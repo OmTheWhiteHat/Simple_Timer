@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Countdown Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+
+  <div class="timer-container">
+    <div>
+    <div class="timer-display">
+      <span id="time">00:00:00</span>
+    </div>
+    <div class="controls">
+      <button id="startStopBtn">Start</button>
+      <button id="resetToZeroBtn">Reset to 0</button>
+      <button id="setTimeBtn">Set Time</button>
+      <input type="number" id="customTime" placeholder="Seconds" />
+    </div>
+    </div>
+  </div>
+
+  <!-- Add Audio for Sound Effect -->
+  <audio id="timeUpSound" src="timeup.mp3" preload="auto"></audio>
+</section>
+  <script src="script.js"></script>
+</body>
+</html>
